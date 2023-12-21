@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                      = 'HyperswitchCore'
-  s.version                   = '2.0.1'
+  s.version                   = '2.0.2'
   s.summary                   = 'Hyperswitch Core'
   s.description               = 'Core of Hyperswitch SDK an open-source payments switch'
   s.homepage                  = 'https://github.com/juspay/hyperswitch-pods'
@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
   s.resources = ["hyperWrapper/Resources/Codepush.plist", "hyperWrapper/Resources/hyperswitch.bundle"]
   s.vendored_frameworks  = 'Frameworks/**/*.xcframework'
   s.dependency 'Hyperswitch-Hermes'
-  s.dependency 'Sentry'
-  s.dependency 'SentryPrivate'
+  # s.dependency 'Sentry'
+  # s.dependency 'SentryPrivate'
 end
