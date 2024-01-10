@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                      = 'HyperswitchCore'
-  s.version                   = '2.0.5'
+  s.version                   = '2.0.6'
   s.summary                   = 'Hyperswitch Core'
   s.description               = 'Core of Hyperswitch SDK an open-source payments switch'
   s.homepage                  = 'https://github.com/juspay/hyperswitch-pods'
