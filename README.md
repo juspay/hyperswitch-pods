@@ -1,3 +1,4 @@
+[deprecated]
 ### CocoaPods hosting for Hyperswitch iOS SDK
 
 Add this line to your Podfile:
